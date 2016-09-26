@@ -1,0 +1,12 @@
+!--
+(com/lotustechblog/tutorial1/multiplier_story.story)
+Scenario: A scenario is a collection of executable steps of different type
+
+Scenario: Another scenario exploring different combination of events
+
+Scenario: Multiplier multiply testing
+Given a Multiplier
+When I multiply 2 and 5
+Then the outcome should be 10
+
+
